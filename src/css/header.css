@@ -23,15 +23,22 @@ body {
 
 .navbar-brand {
   display: flex;
-  padding-left: 1rem;
 }
 
-.navbar-brand .navbar-item:first-child,
-.navbar-brand .navbar-item:first-child a {
+.navbar .title {
   align-self: center;
   padding: 0;
   color: var(--navbar-font-color);
-  font-size: calc(22 / var(--rem-base) * 1rem);
+  font-size: 1rem;
+  margin: 0 1rem;
+}
+
+.navbar-brand .navbar-item.logo {
+  align-self: center;
+  padding: 0;
+  margin-left: 1rem;
+  height: calc(0.6 * var(--navbar-height));
+  width: calc(0.6 * var(--navbar-height));
 }
 
 .navbar-brand .separator {
