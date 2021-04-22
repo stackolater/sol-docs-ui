@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local("Fira Sans Regular"),
+    local("FiraSans-Regular"),
+    url(~typeface-fira-sans/files/fira-sans-latin-400.woff2) format("woff2"),
+    url(~typeface-fira-sans/files/fira-sans-latin-400.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-style: italic;
+  font-weight: 400;
+  src:
+    local("Fira Sans Italic"),
+    local("FiraSans-Italic"),
+    url(~typeface-fira-sans/files/fira-sans-latin-400italic.woff2) format("woff2"),
+    url(~typeface-fira-sans/files/fira-sans-latin-400italic.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 500;
+  src:
+    local("Fira Sans Medium"),
+    local("FiraSans-Medium"),
+    url(~typeface-fira-sans/files/fira-sans-latin-500.woff2) format("woff2"),
+    url(~typeface-fira-sans/files/fira-sans-latin-500.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  font-style: italic;
+  font-weight: 500;
+  src:
+    local("Fira Sans Medium Italic"),
+    local("FiraSans-MediumItalic"),
+    url(~typeface-fira-sans/files/fira-sans-latin-500italic.woff2) format("woff2"),
+    url(~typeface-fira-sans/files/fira-sans-latin-500italic.woff) format("woff");
+}

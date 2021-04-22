@@ -49,6 +49,8 @@
     "require-from-string": "~2.0",
     "stylelint": "~13.3",
     "stylelint-config-standard": "~20.0",
+    "typeface-fira-mono": "1.1.13",
+    "typeface-fira-sans": "1.1.13",
     "typeface-roboto": "0.0.75",
     "typeface-roboto-mono": "0.0.75",
     "vinyl-buffer": "~1.0",
