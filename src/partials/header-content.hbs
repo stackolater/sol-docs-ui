@@ -11,12 +11,14 @@
     </div>
     <div id="topbar-nav" class="navbar-menu">
       <div class="navbar-end">
-        <a class="navbar-item" href="#">Home</a>
+        <a class="navbar-item" href="https://stackolater.com">Home</a>
         <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link" href="#">Docs</a>
+          <a class="navbar-link" href="#">SOL Documentation</a>
           <div class="navbar-dropdown">
-            <a class="navbar-item" href="#">sol stacks</a>
-            <a class="navbar-item" href="#">sol tools</a>
+            {{#each site.components}}
+              <a class="navbar-item" href="{{{relativize ./url}}}">{{{./title}}}</a>
+            {{/each}}
+            <a class="navbar-item" href="https://solapi.docs.apiary.io">SOL API</a>
           </div>
         </div>
         <a class="navbar-item" href="https://stackolater.eu.auth0.com/v2/logout?client_id=aHTFNMn9ON9kWKbRPhiZXR2KkO1ifErX">Logout</a>
